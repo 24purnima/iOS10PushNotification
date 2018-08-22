@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sbv-Ea-Ruh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="HO0-2p-Kbg">
+            <objects>
+                <viewController id="sbv-Ea-Ruh" customClass="NotificationViewController" customModule="NotificationContentExtension" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oMG-dn-z4Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="RXV-Op-Yq8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="meQ-eG-L5c">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="345"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hZK-km-p2G" customClass="iCarousel">
+                                <rect key="frame" x="5" y="5" width="310" height="335"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="335" id="hKN-on-jkl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hZK-km-p2G" firstAttribute="top" secondItem="oMG-dn-z4Y" secondAttribute="bottom" constant="5" id="2Ec-KH-821"/>
+                            <constraint firstAttribute="trailing" secondItem="hZK-km-p2G" secondAttribute="trailing" constant="5" id="CLr-pf-1Gu"/>
+                            <constraint firstItem="hZK-km-p2G" firstAttribute="bottom" secondItem="RXV-Op-Yq8" secondAttribute="top" constant="-5" id="Mgg-4j-RYB"/>
+                            <constraint firstItem="hZK-km-p2G" firstAttribute="leading" secondItem="meQ-eG-L5c" secondAttribute="leading" constant="5" id="ZKZ-pS-kDs"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="345"/>
+                    <connections>
+                        <outlet property="carosel" destination="hZK-km-p2G" id="Ltm-Yi-f8y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iKR-hc-fZY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-603.20000000000005" y="-220.83958020989508"/>
+        </scene>
+    </scenes>
+</document>
