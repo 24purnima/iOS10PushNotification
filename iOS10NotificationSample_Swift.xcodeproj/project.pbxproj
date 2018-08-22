@@ -1,0 +1,927 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D6A0DE61F57F305001CFFFB /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D716E0871E32176E006FCF97 /* UserNotifications.framework */; };
+		5D6A0DE81F57F305001CFFFB /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D6A0DE71F57F305001CFFFB /* UserNotificationsUI.framework */; };
+		5D6A0DEB1F57F305001CFFFB /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6A0DEA1F57F305001CFFFB /* NotificationViewController.swift */; };
+		5D6A0DEE1F57F305001CFFFB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D6A0DEC1F57F305001CFFFB /* MainInterface.storyboard */; };
+		5D6A0DF21F57F306001CFFFB /* NotificationContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5D6A0DE51F57F305001CFFFB /* NotificationContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5D7B5C041EF2A2D2000E4B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D716E0591E321758006FCF97 /* Main.storyboard */; };
+		5D7B5C051EF2A2D2000E4B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D716E0591E321758006FCF97 /* Main.storyboard */; };
+		5D7B5C061EF2A2D3000E4B42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D716E0591E321758006FCF97 /* Main.storyboard */; };
+		5DE48B741FD17D4E00B623C1 /* Shephertz_App42_iOS_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE48B731FD17D4E00B623C1 /* Shephertz_App42_iOS_API.framework */; };
+		5DFBDC2A200DDA0200DFCACF /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBDC29200DDA0200DFCACF /* iCarousel.m */; };
+		5DFBDC2F200DDB6200DFCACF /* SHNotificationContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DFBDC2E200DDB6200DFCACF /* SHNotificationContent.swift */; };
+		D716E0561E321757006FCF97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716E0551E321757006FCF97 /* AppDelegate.swift */; };
+		D716E0581E321757006FCF97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716E0571E321757006FCF97 /* ViewController.swift */; };
+		D716E05B1E321758006FCF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D716E0591E321758006FCF97 /* Main.storyboard */; };
+		D716E05E1E321758006FCF97 /* iOS10NotificationSample_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D716E05C1E321758006FCF97 /* iOS10NotificationSample_Swift.xcdatamodeld */; };
+		D716E0601E321758006FCF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D716E05F1E321758006FCF97 /* Assets.xcassets */; };
+		D716E0631E321758006FCF97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D716E0611E321758006FCF97 /* LaunchScreen.storyboard */; };
+		D716E06E1E321759006FCF97 /* iOS10NotificationSample_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716E06D1E321759006FCF97 /* iOS10NotificationSample_SwiftTests.swift */; };
+		D716E0791E321759006FCF97 /* iOS10NotificationSample_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716E0781E321759006FCF97 /* iOS10NotificationSample_SwiftUITests.swift */; };
+		D716E0881E32176E006FCF97 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D716E0871E32176E006FCF97 /* UserNotifications.framework */; };
+		D716E08B1E322C1C006FCF97 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D716E08A1E322C1C006FCF97 /* logo.png */; };
+		D716E0931E323378006FCF97 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716E0921E323378006FCF97 /* NotificationService.swift */; };
+		D716E09D1E3243BB006FCF97 /* Kaabil Official Trailer 2  Hrithik Roshan  Yami Gautam  25th Jan 2017.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D716E09C1E3243BB006FCF97 /* Kaabil Official Trailer 2  Hrithik Roshan  Yami Gautam  25th Jan 2017.mp4 */; };
+		D716E09F1E35C229006FCF97 /* cartoon_birds_blue_flying_animation_clipart.gif in Resources */ = {isa = PBXBuildFile; fileRef = D716E09E1E35C229006FCF97 /* cartoon_birds_blue_flying_animation_clipart.gif */; };
+		D716E0F81E35F097006FCF97 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716E0F71E35F097006FCF97 /* Const.swift */; };
+		D716E1041E3603CF006FCF97 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D716E1031E3603CF006FCF97 /* CoreTelephony.framework */; };
+		D716E1061E360407006FCF97 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D716E1051E360407006FCF97 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D6A0DF01F57F306001CFFFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D716E04A1E321756006FCF97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6A0DE41F57F304001CFFFB;
+			remoteInfo = NotificationContentExtension;
+		};
+		D716E06A1E321759006FCF97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D716E04A1E321756006FCF97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D716E0511E321757006FCF97;
+			remoteInfo = iOS10NotificationSample_Swift;
+		};
+		D716E0751E321759006FCF97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D716E04A1E321756006FCF97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D716E0511E321757006FCF97;
+			remoteInfo = iOS10NotificationSample_Swift;
+		};
+		D716E0951E323379006FCF97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D716E04A1E321756006FCF97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D716E08F1E323376006FCF97;
+			remoteInfo = NotificationExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D716E09B1E323379006FCF97 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5D6A0DF21F57F306001CFFFB /* NotificationContentExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D6A0DE51F57F305001CFFFB /* NotificationContentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationContentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6A0DE71F57F305001CFFFB /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		5D6A0DEA1F57F305001CFFFB /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		5D6A0DED1F57F305001CFFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		5D6A0DEF1F57F306001CFFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE48B731FD17D4E00B623C1 /* Shephertz_App42_iOS_API.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Shephertz_App42_iOS_API.framework; sourceTree = "<group>"; };
+		5DFBDC28200DDA0200DFCACF /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		5DFBDC29200DDA0200DFCACF /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		5DFBDC2E200DDB6200DFCACF /* SHNotificationContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHNotificationContent.swift; sourceTree = "<group>"; };
+		5DFBDC30200DE03C00DFCACF /* iOS10NotificationContent-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS10NotificationContent-Bridging-Header.h"; sourceTree = "<group>"; };
+		D716E0521E321757006FCF97 /* iOS10NotificationSample_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS10NotificationSample_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D716E0551E321757006FCF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D716E0571E321757006FCF97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D716E05A1E321758006FCF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D716E05D1E321758006FCF97 /* iOS10NotificationSample_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS10NotificationSample_Swift.xcdatamodel; sourceTree = "<group>"; };
+		D716E05F1E321758006FCF97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D716E0621E321758006FCF97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D716E0641E321758006FCF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D716E0691E321759006FCF97 /* iOS10NotificationSample_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS10NotificationSample_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D716E06D1E321759006FCF97 /* iOS10NotificationSample_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10NotificationSample_SwiftTests.swift; sourceTree = "<group>"; };
+		D716E06F1E321759006FCF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D716E0741E321759006FCF97 /* iOS10NotificationSample_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS10NotificationSample_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D716E0781E321759006FCF97 /* iOS10NotificationSample_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS10NotificationSample_SwiftUITests.swift; sourceTree = "<group>"; };
+		D716E07A1E321759006FCF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D716E0871E32176E006FCF97 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		D716E0891E3228EB006FCF97 /* iOS10NotificationSample_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOS10NotificationSample_Swift.entitlements; sourceTree = "<group>"; };
+		D716E08A1E322C1C006FCF97 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D716E0901E323377006FCF97 /* NotificationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D716E0921E323378006FCF97 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		D716E0941E323379006FCF97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D716E09C1E3243BB006FCF97 /* Kaabil Official Trailer 2  Hrithik Roshan  Yami Gautam  25th Jan 2017.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kaabil Official Trailer 2  Hrithik Roshan  Yami Gautam  25th Jan 2017.mp4"; sourceTree = "<group>"; };
+		D716E09E1E35C229006FCF97 /* cartoon_birds_blue_flying_animation_clipart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cartoon_birds_blue_flying_animation_clipart.gif; sourceTree = "<group>"; };
+		D716E0F71E35F097006FCF97 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		D716E1021E36009E006FCF97 /* iOS10NotificationSample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iOS10NotificationSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		D716E1031E3603CF006FCF97 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D716E1051E360407006FCF97 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D6A0DE21F57F304001CFFFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6A0DE81F57F305001CFFFB /* UserNotificationsUI.framework in Frameworks */,
+				5D6A0DE61F57F305001CFFFB /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716E04F1E321757006FCF97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D716E1061E360407006FCF97 /* SystemConfiguration.framework in Frameworks */,
+				5DE48B741FD17D4E00B623C1 /* Shephertz_App42_iOS_API.framework in Frameworks */,
+				D716E1041E3603CF006FCF97 /* CoreTelephony.framework in Frameworks */,
+				D716E0881E32176E006FCF97 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716E0661E321759006FCF97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716E0711E321759006FCF97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716E08D1E323376006FCF97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D6A0DE91F57F305001CFFFB /* NotificationContentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				5DFBDC30200DE03C00DFCACF /* iOS10NotificationContent-Bridging-Header.h */,
+				5DFBDC27200DDA0200DFCACF /* iCarousel */,
+				5D6A0DEA1F57F305001CFFFB /* NotificationViewController.swift */,
+				5D6A0DEC1F57F305001CFFFB /* MainInterface.storyboard */,
+				5D6A0DEF1F57F306001CFFFB /* Info.plist */,
+				5DFBDC2E200DDB6200DFCACF /* SHNotificationContent.swift */,
+			);
+			path = NotificationContentExtension;
+			sourceTree = "<group>";
+		};
+		5DFBDC27200DDA0200DFCACF /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				5DFBDC28200DDA0200DFCACF /* iCarousel.h */,
+				5DFBDC29200DDA0200DFCACF /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		D716E0491E321756006FCF97 = {
+			isa = PBXGroup;
+			children = (
+				D716E0541E321757006FCF97 /* iOS10NotificationSample_Swift */,
+				D716E06C1E321759006FCF97 /* iOS10NotificationSample_SwiftTests */,
+				D716E0771E321759006FCF97 /* iOS10NotificationSample_SwiftUITests */,
+				D716E0911E323378006FCF97 /* NotificationExtension */,
+				5D6A0DE91F57F305001CFFFB /* NotificationContentExtension */,
+				D716E0531E321757006FCF97 /* Products */,
+				D716E0861E32176E006FCF97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D716E0531E321757006FCF97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D716E0521E321757006FCF97 /* iOS10NotificationSample_Swift.app */,
+				D716E0691E321759006FCF97 /* iOS10NotificationSample_SwiftTests.xctest */,
+				D716E0741E321759006FCF97 /* iOS10NotificationSample_SwiftUITests.xctest */,
+				D716E0901E323377006FCF97 /* NotificationExtension.appex */,
+				5D6A0DE51F57F305001CFFFB /* NotificationContentExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D716E0541E321757006FCF97 /* iOS10NotificationSample_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D716E1021E36009E006FCF97 /* iOS10NotificationSample-Bridging-Header.h */,
+				D716E09E1E35C229006FCF97 /* cartoon_birds_blue_flying_animation_clipart.gif */,
+				D716E09C1E3243BB006FCF97 /* Kaabil Official Trailer 2  Hrithik Roshan  Yami Gautam  25th Jan 2017.mp4 */,
+				D716E08A1E322C1C006FCF97 /* logo.png */,
+				D716E0891E3228EB006FCF97 /* iOS10NotificationSample_Swift.entitlements */,
+				D716E0551E321757006FCF97 /* AppDelegate.swift */,
+				D716E0571E321757006FCF97 /* ViewController.swift */,
+				D716E0591E321758006FCF97 /* Main.storyboard */,
+				D716E05F1E321758006FCF97 /* Assets.xcassets */,
+				D716E0611E321758006FCF97 /* LaunchScreen.storyboard */,
+				D716E0641E321758006FCF97 /* Info.plist */,
+				D716E05C1E321758006FCF97 /* iOS10NotificationSample_Swift.xcdatamodeld */,
+				D716E0F71E35F097006FCF97 /* Const.swift */,
+			);
+			path = iOS10NotificationSample_Swift;
+			sourceTree = "<group>";
+		};
+		D716E06C1E321759006FCF97 /* iOS10NotificationSample_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				D716E06D1E321759006FCF97 /* iOS10NotificationSample_SwiftTests.swift */,
+				D716E06F1E321759006FCF97 /* Info.plist */,
+			);
+			path = iOS10NotificationSample_SwiftTests;
+			sourceTree = "<group>";
+		};
+		D716E0771E321759006FCF97 /* iOS10NotificationSample_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D716E0781E321759006FCF97 /* iOS10NotificationSample_SwiftUITests.swift */,
+				D716E07A1E321759006FCF97 /* Info.plist */,
+			);
+			path = iOS10NotificationSample_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		D716E0861E32176E006FCF97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DE48B731FD17D4E00B623C1 /* Shephertz_App42_iOS_API.framework */,
+				D716E1051E360407006FCF97 /* SystemConfiguration.framework */,
+				D716E1031E3603CF006FCF97 /* CoreTelephony.framework */,
+				D716E0871E32176E006FCF97 /* UserNotifications.framework */,
+				5D6A0DE71F57F305001CFFFB /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D716E0911E323378006FCF97 /* NotificationExtension */ = {
+			isa = PBXGroup;
+			children = (
+				D716E0921E323378006FCF97 /* NotificationService.swift */,
+				D716E0941E323379006FCF97 /* Info.plist */,
+			);
+			path = NotificationExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D6A0DE41F57F304001CFFFB /* NotificationContentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D6A0DF51F57F306001CFFFB /* Build configuration list for PBXNativeTarget "NotificationContentExtension" */;
+			buildPhases = (
+				5D6A0DE11F57F304001CFFFB /* Sources */,
+				5D6A0DE21F57F304001CFFFB /* Frameworks */,
+				5D6A0DE31F57F304001CFFFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationContentExtension;
+			productName = NotificationContentExtension;
+			productReference = 5D6A0DE51F57F305001CFFFB /* NotificationContentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D716E0511E321757006FCF97 /* iOS10NotificationSample_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D716E07D1E321759006FCF97 /* Build configuration list for PBXNativeTarget "iOS10NotificationSample_Swift" */;
+			buildPhases = (
+				D716E04E1E321757006FCF97 /* Sources */,
+				D716E04F1E321757006FCF97 /* Frameworks */,
+				D716E0501E321757006FCF97 /* Resources */,
+				D716E09B1E323379006FCF97 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D716E0961E323379006FCF97 /* PBXTargetDependency */,
+				5D6A0DF11F57F306001CFFFB /* PBXTargetDependency */,
+			);
+			name = iOS10NotificationSample_Swift;
+			productName = iOS10NotificationSample_Swift;
+			productReference = D716E0521E321757006FCF97 /* iOS10NotificationSample_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D716E0681E321759006FCF97 /* iOS10NotificationSample_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D716E0801E321759006FCF97 /* Build configuration list for PBXNativeTarget "iOS10NotificationSample_SwiftTests" */;
+			buildPhases = (
+				D716E0651E321759006FCF97 /* Sources */,
+				D716E0661E321759006FCF97 /* Frameworks */,
+				D716E0671E321759006FCF97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D716E06B1E321759006FCF97 /* PBXTargetDependency */,
+			);
+			name = iOS10NotificationSample_SwiftTests;
+			productName = iOS10NotificationSample_SwiftTests;
+			productReference = D716E0691E321759006FCF97 /* iOS10NotificationSample_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D716E0731E321759006FCF97 /* iOS10NotificationSample_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D716E0831E321759006FCF97 /* Build configuration list for PBXNativeTarget "iOS10NotificationSample_SwiftUITests" */;
+			buildPhases = (
+				D716E0701E321759006FCF97 /* Sources */,
+				D716E0711E321759006FCF97 /* Frameworks */,
+				D716E0721E321759006FCF97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D716E0761E321759006FCF97 /* PBXTargetDependency */,
+			);
+			name = iOS10NotificationSample_SwiftUITests;
+			productName = iOS10NotificationSample_SwiftUITests;
+			productReference = D716E0741E321759006FCF97 /* iOS10NotificationSample_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D716E08F1E323376006FCF97 /* NotificationExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D716E0981E323379006FCF97 /* Build configuration list for PBXNativeTarget "NotificationExtension" */;
+			buildPhases = (
+				D716E08C1E323376006FCF97 /* Sources */,
+				D716E08D1E323376006FCF97 /* Frameworks */,
+				D716E08E1E323376006FCF97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationExtension;
+			productName = NotificationExtension;
+			productReference = D716E0901E323377006FCF97 /* NotificationExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D716E04A1E321756006FCF97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Shephertz;
+				TargetAttributes = {
+					5D6A0DE41F57F304001CFFFB = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 93TF9ZT92J;
+						ProvisioningStyle = Automatic;
+					};
+					D716E0511E321757006FCF97 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 93TF9ZT92J;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					D716E0681E321759006FCF97 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 93TF9ZT92J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D716E0511E321757006FCF97;
+					};
+					D716E0731E321759006FCF97 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 93TF9ZT92J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D716E0511E321757006FCF97;
+					};
+					D716E08F1E323376006FCF97 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 93TF9ZT92J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D716E04D1E321757006FCF97 /* Build configuration list for PBXProject "iOS10NotificationSample_Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D716E0491E321756006FCF97;
+			productRefGroup = D716E0531E321757006FCF97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D716E0511E321757006FCF97 /* iOS10NotificationSample_Swift */,
+				D716E0681E321759006FCF97 /* iOS10NotificationSample_SwiftTests */,
+				D716E0731E321759006FCF97 /* iOS10NotificationSample_SwiftUITests */,
+				D716E08F1E323376006FCF97 /* NotificationExtension */,
+				5D6A0DE41F57F304001CFFFB /* NotificationContentExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D6A0DE31F57F304001CFFFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6A0DEE1F57F305001CFFFB /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716E0501E321757006FCF97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D716E09F1E35C229006FCF97 /* cartoon_birds_blue_flying_animation_clipart.gif in Resources */,
+				D716E09D1E3243BB006FCF97 /* Kaabil Official Trailer 2  Hrithik Roshan  Yami Gautam  25th Jan 2017.mp4 in Resources */,
+				D716E08B1E322C1C006FCF97 /* logo.png in Resources */,
+				D716E0631E321758006FCF97 /* LaunchScreen.storyboard in Resources */,
+				D716E0601E321758006FCF97 /* Assets.xcassets in Resources */,
+				D716E05B1E321758006FCF97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716E0671E321759006FCF97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7B5C061EF2A2D3000E4B42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716E0721E321759006FCF97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7B5C051EF2A2D2000E4B42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716E08E1E323376006FCF97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7B5C041EF2A2D2000E4B42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D6A0DE11F57F304001CFFFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DFBDC2F200DDB6200DFCACF /* SHNotificationContent.swift in Sources */,
+				5D6A0DEB1F57F305001CFFFB /* NotificationViewController.swift in Sources */,
+				5DFBDC2A200DDA0200DFCACF /* iCarousel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716E04E1E321757006FCF97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D716E0581E321757006FCF97 /* ViewController.swift in Sources */,
+				D716E0F81E35F097006FCF97 /* Const.swift in Sources */,
+				D716E0561E321757006FCF97 /* AppDelegate.swift in Sources */,
+				D716E05E1E321758006FCF97 /* iOS10NotificationSample_Swift.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716E0651E321759006FCF97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D716E06E1E321759006FCF97 /* iOS10NotificationSample_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716E0701E321759006FCF97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D716E0791E321759006FCF97 /* iOS10NotificationSample_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D716E08C1E323376006FCF97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D716E0931E323378006FCF97 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D6A0DF11F57F306001CFFFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D6A0DE41F57F304001CFFFB /* NotificationContentExtension */;
+			targetProxy = 5D6A0DF01F57F306001CFFFB /* PBXContainerItemProxy */;
+		};
+		D716E06B1E321759006FCF97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D716E0511E321757006FCF97 /* iOS10NotificationSample_Swift */;
+			targetProxy = D716E06A1E321759006FCF97 /* PBXContainerItemProxy */;
+		};
+		D716E0761E321759006FCF97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D716E0511E321757006FCF97 /* iOS10NotificationSample_Swift */;
+			targetProxy = D716E0751E321759006FCF97 /* PBXContainerItemProxy */;
+		};
+		D716E0961E323379006FCF97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D716E08F1E323376006FCF97 /* NotificationExtension */;
+			targetProxy = D716E0951E323379006FCF97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D6A0DEC1F57F305001CFFFB /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D6A0DED1F57F305001CFFFB /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		D716E0591E321758006FCF97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D716E05A1E321758006FCF97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D716E0611E321758006FCF97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D716E0621E321758006FCF97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D6A0DF31F57F306001CFFFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				INFOPLIST_FILE = NotificationContentExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.CleverTapDemo.NotificationContentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotificationContentExtension/iOS10NotificationContent-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5D6A0DF41F57F306001CFFFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				INFOPLIST_FILE = NotificationContentExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.CleverTapDemo.NotificationContentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotificationContentExtension/iOS10NotificationContent-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D716E07B1E321759006FCF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D716E07C1E321759006FCF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D716E07E1E321759006FCF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = iOS10NotificationSample_Swift/iOS10NotificationSample_Swift.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iOS10NotificationSample_Swift",
+				);
+				INFOPLIST_FILE = iOS10NotificationSample_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.CleverTapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS10NotificationSample_Swift/iOS10NotificationSample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D716E07F1E321759006FCF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = iOS10NotificationSample_Swift/iOS10NotificationSample_Swift.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/iOS10NotificationSample_Swift",
+				);
+				INFOPLIST_FILE = iOS10NotificationSample_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.CleverTapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iOS10NotificationSample_Swift/iOS10NotificationSample-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D716E0811E321759006FCF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				INFOPLIST_FILE = iOS10NotificationSample_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shephertz.iOS10NotificationSample-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS10NotificationSample_Swift.app/iOS10NotificationSample_Swift";
+			};
+			name = Debug;
+		};
+		D716E0821E321759006FCF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				INFOPLIST_FILE = iOS10NotificationSample_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shephertz.iOS10NotificationSample-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS10NotificationSample_Swift.app/iOS10NotificationSample_Swift";
+			};
+			name = Release;
+		};
+		D716E0841E321759006FCF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				INFOPLIST_FILE = iOS10NotificationSample_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shephertz.iOS10NotificationSample-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOS10NotificationSample_Swift;
+			};
+			name = Debug;
+		};
+		D716E0851E321759006FCF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				INFOPLIST_FILE = iOS10NotificationSample_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shephertz.iOS10NotificationSample-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = iOS10NotificationSample_Swift;
+			};
+			name = Release;
+		};
+		D716E0991E323379006FCF97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				INFOPLIST_FILE = NotificationExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.CleverTapDemo.NotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D716E09A1E323379006FCF97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 93TF9ZT92J;
+				INFOPLIST_FILE = NotificationExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shephertz.CleverTapDemo.NotificationExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D6A0DF51F57F306001CFFFB /* Build configuration list for PBXNativeTarget "NotificationContentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6A0DF31F57F306001CFFFB /* Debug */,
+				5D6A0DF41F57F306001CFFFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D716E04D1E321757006FCF97 /* Build configuration list for PBXProject "iOS10NotificationSample_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D716E07B1E321759006FCF97 /* Debug */,
+				D716E07C1E321759006FCF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D716E07D1E321759006FCF97 /* Build configuration list for PBXNativeTarget "iOS10NotificationSample_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D716E07E1E321759006FCF97 /* Debug */,
+				D716E07F1E321759006FCF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D716E0801E321759006FCF97 /* Build configuration list for PBXNativeTarget "iOS10NotificationSample_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D716E0811E321759006FCF97 /* Debug */,
+				D716E0821E321759006FCF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D716E0831E321759006FCF97 /* Build configuration list for PBXNativeTarget "iOS10NotificationSample_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D716E0841E321759006FCF97 /* Debug */,
+				D716E0851E321759006FCF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D716E0981E323379006FCF97 /* Build configuration list for PBXNativeTarget "NotificationExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D716E0991E323379006FCF97 /* Debug */,
+				D716E09A1E323379006FCF97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D716E05C1E321758006FCF97 /* iOS10NotificationSample_Swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D716E05D1E321758006FCF97 /* iOS10NotificationSample_Swift.xcdatamodel */,
+			);
+			currentVersion = D716E05D1E321758006FCF97 /* iOS10NotificationSample_Swift.xcdatamodel */;
+			path = iOS10NotificationSample_Swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D716E04A1E321756006FCF97 /* Project object */;
+}
